@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana,sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.type{
+    font-size: 13px;
+    text-align: center;
+    min-width: 50px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.typeNormal{
+    background-color: #C5C0B4;
+}
+.typeGrass{
+    background-color: #87C553;
+}
+.typeFire{
+    background-color: #EC4512;
+}
+.typeWater{
+    background-color: #3194F2;
+}
+.typeElectric{
+    background-color: #F9BA19;
+}
+.typeFlying{
+    background-color: #94A5F3;
+}
+.typeBug{
+    background-color: #A5B81E;
+}
+.typePoison{
+    background-color: #954997;
+    color: white;
+}
+.typeGround{
+    background-color: #D3B45B;
+}
+.typeRock{
+    background-color: #9D873A;
+}
+.typeFighting{
+    background-color: #80321D;
+}
+.typePsychic{
+    background-color: #EA487F;
+}
+.typeGhost{
+    background-color: #5E5EB0;
+}
+.typeIce{
+    background-color: #A6E7FF;
+}
+.typeDragon{
+    background-color: #735EE2;
+    color: white;
+}
+.typeDark{
+    background-color: #523E2E;
+    color: white;
+}
+.typeSteel{
+    background-color: #B5B5C3;
+}
+.typeQuestionmark{
+    background-color: #809355;
+}

@@ -1,0 +1,1355 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nuzzling Platinum</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/frontend.css">
+  <script src="javascript/jquery.js"></script>
+  <script src="javascript/frontend.js"></script>
+</head>
+<body>
+      <div class="bodyoverlay">
+      <header>
+        <a href="index.html">Index</a>
+        <a href="pokedex.html">Pokedex</a>
+        <a href="trainers.html">Trainers</a>
+        <a href="map.html">Map</a>
+        <a href="moves.html">Moves</a>
+        <a href="items.html">Items</a>
+      </header>
+      <div class="frontendcontainer">
+    
+
+<div class="pokepage">
+    <div class="pokepage__row">
+        <div class="pokepage__block pokepage__image">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/487.png" height="250px" width="250px">
+        </div>
+        <div class="pokepage__block pokepage__details">
+            <div class="pokepage__detailstable">
+                <a href="palkia.html">
+                    <<img src="https://www.serebii.net/pokedex-sm/icon/484.png">
+                </a>
+                <div class="detailstable__item">
+                    <div class="detailstable__label">Name:</div>
+                    <div class="detailstable__value">GIRATINA</div>
+                </div>
+                <a href="giratina-o.html">
+                    <img src="https://www.serebii.net/pokedex-sm/icon/487.png">>
+                </a>
+                <div class="detailstable__item">
+                    <div class="detailstable__label">Types:</div>
+                    <div class="detailstable__value"><span class="type typeGhost">Ghost</span><span class="type typeDragon">Dragon</span></div>
+                </div>
+                <div class="detailstable__item">
+                    <div class="detailstable__label">Items:</div>
+                    <div class="detailstable__value detailstable__value-items"> <div class="detailshelditem__none">no hold items</div> </div>
+                </div>
+                <div class="detailstable__item">
+                    <div class="detailstable__label">Ability 1:</div>
+                    <div class="detailstable__value">Pressure</div>
+                </div>
+                <div class="detailstable__item">
+                    <div class="detailstable__label">Ability 2:</div>
+                    <div class="detailstable__value"> -</div>
+                </div>
+            </div>
+            <div class="pokepage__stats">
+                <div class="stat">
+                    <span class="stat__name">HP:</span>
+                    <span class="stat__number">150</span>
+                    <span class="stat__barholder">
+                        <span class="stat__bar" style="width: 58.823529411765%; background-color: #02ff2a;"></span>
+                    </span>
+                </div>
+                <div class="stat">
+                    <span class="stat__name">ATK:</span>
+                    <span class="stat__number">100</span>
+                    <span class="stat__barholder">
+                        <span class="stat__bar" style="width: 39.21568627451%; background-color: #ffd500;"></span>
+                    </span>
+                </div>
+                <div class="stat">
+                    <span class="stat__name">DEF:</span>
+                    <span class="stat__number">120</span>
+                    <span class="stat__barholder">
+                        <span class="stat__bar" style="width: 47.058823529412%; background-color: #9aff00;"></span>
+                    </span>
+                </div>
+                <div class="stat">
+                    <span class="stat__name">S.ATK:</span>
+                    <span class="stat__number">100</span>
+                    <span class="stat__barholder">
+                        <span class="stat__bar" style="width: 39.21568627451%; background-color: #ffd500;"></span>
+                    </span>
+                </div>
+                <div class="stat">
+                    <span class="stat__name">S.DEF:</span>
+                    <span class="stat__number">120</span>
+                    <span class="stat__barholder">
+                        <span class="stat__bar" style="width: 47.058823529412%; background-color: #9aff00;"></span>
+                    </span>
+                </div>
+                <div class="stat">
+                    <span class="stat__name">SPD:</span>
+                    <span class="stat__number">90</span>
+                    <span class="stat__barholder">
+                        <span class="stat__bar" style="width: 35.294117647059%; background-color: #ff6600;"></span>
+                    </span>
+                </div>
+                <div class="stat">
+                    <span class="stat__name">Total:</span>
+                    <span class="stat__number">680</span>
+                    <span class="stat__barholder">
+                        <span class="stat__bar" style="width: 100%; background-color: #b300b3;"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pokepage__row">
+        <div class="pokepage__evolutions">
+            <div class="pokepage__firstevolutions">
+            <p style='text-align: center;'>no evolutions</p></div>        </div>
+    </div>
+    <div class="pokepage__row pokepage__locations">
+        <div class="sinnohmap_holder">
+            <div class="sinnohmap__emptydisplay">- area unknown -</div>            <div class="sinnohmap">
+                            </div>
+        </div>
+        <div class="pokepage__locationlist">
+            <div class="locationlist__header"><img src="images/icons/grass.png">Grass</div><div class="locationlist__none">none</div><div class="locationlist__header"><img src="images/icons/surf.png">Surf</div><div class="locationlist__none">none</div><div class="locationlist__header"><img src="images/icons/oldrod.png">Old rod</div><div class="locationlist__none">none</div><div class="locationlist__header"><img src="images/icons/goodrod.png">Good rod</div><div class="locationlist__none">none</div><div class="locationlist__header"><img src="images/icons/superrod.png">Super rod</div><div class="locationlist__none">none</div><div class="locationlist__header"><img src="images/icons/honey.png"></div><div class="locationlist__none">no</div>        </div>
+    </div>
+    <div class="pokepage__moves">
+        <table>
+            <thead>
+                <th class="move__level">lv.</th>
+                <th class="move__name">Move</th>
+                <th class="move__type">Type</th>
+                <th class="move__power">Power</th>
+                <th class="move__category">Category</th>
+                <th class="move__accuracy">Accuracy</th>
+                <th class="move__pp">PP</th>
+                <th class="move__effect">Effect</th>
+            </thead>
+                                                                                <tr>
+                        <td class="move__level">1</td>
+                        <td class="move__name">
+                            <a href="dragonbreath.html">
+                                DragonBreath                            </a>
+                        </td>
+                        <td class="move__type"><span class="type typeDragon">Dragon</span></td>
+                        <td class="move__power">60</td>
+                        <td class="move__category"><img src="https://www.serebii.net/pokedex-bw/type/special.png"></td>
+                        <td class="move__accuracy">100</td>
+                        <td class="move__pp">20</td>
+                        <td class="move__effect">Chance to Paralyze</td>
+                    </tr>
+                                                        <tr>
+                        <td class="move__level">1</td>
+                        <td class="move__name">
+                            <a href="scary-face.html">
+                                Scary Face                            </a>
+                        </td>
+                        <td class="move__type"><span class="type typeNormal">Normal</span></td>
+                        <td class="move__power">0</td>
+                        <td class="move__category"><img src="https://www.serebii.net/pokedex-bw/type/other.png"></td>
+                        <td class="move__accuracy">90</td>
+                        <td class="move__pp">10</td>
+                        <td class="move__effect">Sharply lowers Spd (Status)</td>
+                    </tr>
+                                                                                                                                                                                                                                                                                                                    <tr>
+                        <td class="move__level">10</td>
+                        <td class="move__name">
+                            <a href="ominous-wind.html">
+                                Ominous Wind                            </a>
+                        </td>
+                        <td class="move__type"><span class="type typeGhost">Ghost</span></td>
+                        <td class="move__power">60</td>
+                        <td class="move__category"><img src="https://www.serebii.net/pokedex-bw/type/special.png"></td>
+                        <td class="move__accuracy">100</td>
+                        <td class="move__pp">5</td>
+                        <td class="move__effect">Ancient Power boost</td>
+                    </tr>
+                                                                                                                                                                                                                                                                                                                                                <tr>
+                        <td class="move__level">20</td>
+                        <td class="move__name">
+                            <a href="ancientpower.html">
+                                AncientPower                            </a>
+                        </td>
+                        <td class="move__type"><span class="type typeRock">Rock</span></td>
+                        <td class="move__power">60</td>
+                        <td class="move__category"><img src="https://www.serebii.net/pokedex-bw/type/special.png"></td>
+                        <td class="move__accuracy">100</td>
+                        <td class="move__pp">5</td>
+                        <td class="move__effect">Ancient Power boost</td>
+                    </tr>
+                                                                                                                                                                                                                                                                                                                                                <tr>
+                        <td class="move__level">30</td>
+                        <td class="move__name">
+                            <a href="dragon-claw.html">
+                                Dragon Claw                            </a>
+                        </td>
+                        <td class="move__type"><span class="type typeDragon">Dragon</span></td>
+                        <td class="move__power">80</td>
+                        <td class="move__category"><img src="https://www.serebii.net/pokedex-bw/type/physical.png"></td>
+                        <td class="move__accuracy">100</td>
+                        <td class="move__pp">15</td>
+                        <td class="move__effect">None</td>
+                    </tr>
+                                                                                                                                                                                                                                                                                                                                                <tr>
+                        <td class="move__level">40</td>
+                        <td class="move__name">
+                            <a href="shadow-force.html">
+                                Shadow Force                            </a>
+                        </td>
+                        <td class="move__type"><span class="type typeGhost">Ghost</span></td>
+                        <td class="move__power">120</td>
+                        <td class="move__category"><img src="https://www.serebii.net/pokedex-bw/type/physical.png"></td>
+                        <td class="move__accuracy">100</td>
+                        <td class="move__pp">5</td>
+                        <td class="move__effect">Shadow Force effect</td>
+                    </tr>
+                                                                                                                                                                                                                                                                                                                                                <tr>
+                        <td class="move__level">50</td>
+                        <td class="move__name">
+                            <a href="heal-block.html">
+                                Heal Block                            </a>
+                        </td>
+                        <td class="move__type"><span class="type typePsychic">Psychic</span></td>
+                        <td class="move__power">0</td>
+                        <td class="move__category"><img src="https://www.serebii.net/pokedex-bw/type/other.png"></td>
+                        <td class="move__accuracy">100</td>
+                        <td class="move__pp">15</td>
+                        <td class="move__effect">Heal Block effect</td>
+                    </tr>
+                                                                                                                                                                                                                                                                                                                                                <tr>
+                        <td class="move__level">60</td>
+                        <td class="move__name">
+                            <a href="earth-power.html">
+                                Earth Power                            </a>
+                        </td>
+                        <td class="move__type"><span class="type typeGround">Ground</span></td>
+                        <td class="move__power">90</td>
+                        <td class="move__category"><img src="https://www.serebii.net/pokedex-bw/type/special.png"></td>
+                        <td class="move__accuracy">100</td>
+                        <td class="move__pp">10</td>
+                        <td class="move__effect">Lowers SpDef (Attack)</td>
+                    </tr>
+                                                                                                                                                                                                                                                                                                                                                <tr>
+                        <td class="move__level">70</td>
+                        <td class="move__name">
+                            <a href="slash.html">
+                                Slash                            </a>
+                        </td>
+                        <td class="move__type"><span class="type typeNormal">Normal</span></td>
+                        <td class="move__power">70</td>
+                        <td class="move__category"><img src="https://www.serebii.net/pokedex-bw/type/physical.png"></td>
+                        <td class="move__accuracy">100</td>
+                        <td class="move__pp">20</td>
+                        <td class="move__effect">High crit ratio</td>
+                    </tr>
+                                                                                                                                                                                                                                                                                                                                                <tr>
+                        <td class="move__level">80</td>
+                        <td class="move__name">
+                            <a href="shadow-claw.html">
+                                Shadow Claw                            </a>
+                        </td>
+                        <td class="move__type"><span class="type typeGhost">Ghost</span></td>
+                        <td class="move__power">70</td>
+                        <td class="move__category"><img src="https://www.serebii.net/pokedex-bw/type/physical.png"></td>
+                        <td class="move__accuracy">100</td>
+                        <td class="move__pp">15</td>
+                        <td class="move__effect">High crit ratio</td>
+                    </tr>
+                                                                                                                                                                                                                                                                                                                                                <tr>
+                        <td class="move__level">90</td>
+                        <td class="move__name">
+                            <a href="aura-sphere.html">
+                                Aura Sphere                            </a>
+                        </td>
+                        <td class="move__type"><span class="type typeFighting">Fighting</span></td>
+                        <td class="move__power">90</td>
+                        <td class="move__category"><img src="https://www.serebii.net/pokedex-bw/type/special.png"></td>
+                        <td class="move__accuracy">0</td>
+                        <td class="move__pp">20</td>
+                        <td class="move__effect">Always hits</td>
+                    </tr>
+                                                                                                                                                                                                                                                                                                                            </table>
+    </div>
+    <div class="pokepage__tms">
+                    <div class="pokepage__tm typeRock">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    1                </div>
+                <div class="tm__name">
+                <a href="stealth-rock.html">
+                        Stealth Rock                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeNormal">
+                                <div class="tm__number">
+                    TM.                    2                </div>
+                <div class="tm__name">
+                <a href="baton-pass.html">
+                        Baton Pass                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeNormal">
+                                <div class="tm__number">
+                    TM.                    3                </div>
+                <div class="tm__name">
+                <a href="metronome.html">
+                        Metronome                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeNormal">
+                                <div class="tm__number">
+                    TM.                    4                </div>
+                <div class="tm__name">
+                <a href="protect.html">
+                        Protect                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeDragon">
+                                <div class="tm__number">
+                    TM.                    5                </div>
+                <div class="tm__name">
+                <a href="dragon-claw.html">
+                        Dragon Claw                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeRock">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    6                </div>
+                <div class="tm__name">
+                <a href="sandstorm.html">
+                        Sandstorm                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeFire">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    7                </div>
+                <div class="tm__name">
+                <a href="sunny-day.html">
+                        Sunny Day                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeIce">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    8                </div>
+                <div class="tm__name">
+                <a href="hail.html">
+                        Hail                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeWater">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    9                </div>
+                <div class="tm__name">
+                <a href="rain-dance.html">
+                        Rain Dance                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeNormal">
+                                <div class="tm__number">
+                    TM.                    10                </div>
+                <div class="tm__name">
+                <a href="return.html">
+                        Return                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeNormal">
+                                <div class="tm__number">
+                    TM.                    11                </div>
+                <div class="tm__name">
+                <a href="quick-attack.html">
+                        Quick Attack                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeNormal">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    12                </div>
+                <div class="tm__name">
+                <a href="false-swipe.html">
+                        False Swipe                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeDark">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    13                </div>
+                <div class="tm__name">
+                <a href="pursuit.html">
+                        Pursuit                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeDark">
+                                <div class="tm__number">
+                    TM.                    14                </div>
+                <div class="tm__name">
+                <a href="thief.html">
+                        Thief                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeRock">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    15                </div>
+                <div class="tm__name">
+                <a href="rock-tomb.html">
+                        Rock Tomb                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeGrass">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    16                </div>
+                <div class="tm__name">
+                <a href="razor-leaf.html">
+                        Razor Leaf                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeFlying">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    17                </div>
+                <div class="tm__name">
+                <a href="aerial-ace.html">
+                        Aerial Ace                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeNormal">
+                                <div class="tm__number">
+                    TM.                    18                </div>
+                <div class="tm__name">
+                <a href="hidden-power.html">
+                        Hidden Power                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeFighting">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    19                </div>
+                <div class="tm__name">
+                <a href="drain-punch.html">
+                        Drain Punch                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typePoison">
+                                <div class="tm__number">
+                    TM.                    20                </div>
+                <div class="tm__name">
+                <a href="poison-fang.html">
+                        Poison Fang                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeElectric">
+                                <div class="tm__number">
+                    TM.                    21                </div>
+                <div class="tm__name">
+                <a href="thunder-fang.html">
+                        Thunder Fang                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeFire">
+                                <div class="tm__number">
+                    TM.                    22                </div>
+                <div class="tm__name">
+                <a href="fire-fang.html">
+                        Fire Fang                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeIce">
+                                <div class="tm__number">
+                    TM.                    23                </div>
+                <div class="tm__name">
+                <a href="ice-fang.html">
+                        Ice Fang                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeWater">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    24                </div>
+                <div class="tm__name">
+                <a href="bubblebeam.html">
+                        BubbleBeam                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeNormal">
+                                <div class="tm__number">
+                    TM.                    25                </div>
+                <div class="tm__name">
+                <a href="headbutt.html">
+                        Headbutt                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typePsychic">
+                                <div class="tm__number">
+                    TM.                    26                </div>
+                <div class="tm__name">
+                <a href="psycho-cut.html">
+                        Psycho Cut                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeRock">
+                                <div class="tm__number">
+                    TM.                    27                </div>
+                <div class="tm__name">
+                <a href="power-gem.html">
+                        Power Gem                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeSteel">
+                                <div class="tm__number">
+                    TM.                    28                </div>
+                <div class="tm__name">
+                <a href="steel-wing.html">
+                        Steel Wing                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typePsychic">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    29                </div>
+                <div class="tm__name">
+                <a href="mist-ball.html">
+                        Mist Ball                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeBug">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    30                </div>
+                <div class="tm__name">
+                <a href="u-turn.html">
+                        U-turn                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeGround">
+                                <div class="tm__number">
+                    TM.                    31                </div>
+                <div class="tm__name">
+                <a href="bone-rush.html">
+                        Bone Rush                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeRock">
+                                <div class="tm__number">
+                    TM.                    32                </div>
+                <div class="tm__name">
+                <a href="rock-slide.html">
+                        Rock Slide                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeFighting">
+                                <div class="tm__number">
+                    TM.                    33                </div>
+                <div class="tm__name">
+                <a href="brick-break.html">
+                        Brick Break                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeGhost">
+                                <div class="tm__number">
+                    TM.                    34                </div>
+                <div class="tm__name">
+                <a href="shadow-punch.html">
+                        Shadow Punch                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeElectric">
+                                <div class="tm__number">
+                    TM.                    35                </div>
+                <div class="tm__name">
+                <a href="thunderpunch.html">
+                        ThunderPunch                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeFire">
+                                <div class="tm__number">
+                    TM.                    36                </div>
+                <div class="tm__name">
+                <a href="fire-punch.html">
+                        Fire Punch                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeIce">
+                                <div class="tm__number">
+                    TM.                    37                </div>
+                <div class="tm__name">
+                <a href="ice-punch.html">
+                        Ice Punch                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeNormal">
+                                <div class="tm__number">
+                    TM.                    38                </div>
+                <div class="tm__name">
+                <a href="mega-punch.html">
+                        Mega Punch                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeGround">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    39                </div>
+                <div class="tm__name">
+                <a href="dig.html">
+                        Dig                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeGrass">
+                                <div class="tm__number">
+                    TM.                    40                </div>
+                <div class="tm__name">
+                <a href="energy-ball.html">
+                        Energy Ball                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeFlying">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    41                </div>
+                <div class="tm__name">
+                <a href="drill-peck.html">
+                        Drill Peck                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typePoison">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    42                </div>
+                <div class="tm__name">
+                <a href="poison-jab.html">
+                        Poison Jab                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeSteel">
+                                <div class="tm__number">
+                    TM.                    43                </div>
+                <div class="tm__name">
+                <a href="flash-cannon.html">
+                        Flash Cannon                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeSteel">
+                                <div class="tm__number">
+                    TM.                    44                </div>
+                <div class="tm__name">
+                <a href="iron-head.html">
+                        Iron Head                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeDark">
+                                <div class="tm__number">
+                    TM.                    45                </div>
+                <div class="tm__name">
+                <a href="sucker-punch.html">
+                        Sucker Punch                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeDark">
+                                <div class="tm__number">
+                    TM.                    46                </div>
+                <div class="tm__name">
+                <a href="dark-pulse.html">
+                        Dark Pulse                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeGhost">
+                                <div class="tm__number">
+                    TM.                    47                </div>
+                <div class="tm__name">
+                <a href="shadow-ball.html">
+                        Shadow Ball                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeDragon">
+                                <div class="tm__number">
+                    TM.                    48                </div>
+                <div class="tm__name">
+                <a href="dragon-pulse.html">
+                        Dragon Pulse                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typePsychic">
+                                <div class="tm__number">
+                    TM.                    49                </div>
+                <div class="tm__name">
+                <a href="psychic.html">
+                        Psychic                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeFighting">
+                                <div class="tm__number">
+                    TM.                    50                </div>
+                <div class="tm__name">
+                <a href="aura-sphere.html">
+                        Aura Sphere                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeGround">
+                                <div class="tm__number">
+                    TM.                    51                </div>
+                <div class="tm__name">
+                <a href="earth-power.html">
+                        Earth Power                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeBug">
+                                <div class="tm__number">
+                    TM.                    52                </div>
+                <div class="tm__name">
+                <a href="attack-order.html">
+                        Attack Order                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeBug">
+                                <div class="tm__number">
+                    TM.                    53                </div>
+                <div class="tm__name">
+                <a href="bug-buzz.html">
+                        Bug Buzz                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeElectric">
+                                <div class="tm__number">
+                    TM.                    54                </div>
+                <div class="tm__name">
+                <a href="thunderbolt.html">
+                        Thunderbolt                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeFire">
+                                <div class="tm__number">
+                    TM.                    55                </div>
+                <div class="tm__name">
+                <a href="flamethrower.html">
+                        Flamethrower                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeIce">
+                                <div class="tm__number">
+                    TM.                    56                </div>
+                <div class="tm__name">
+                <a href="ice-beam.html">
+                        Ice Beam                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeRock">
+                                <div class="tm__number">
+                    TM.                    57                </div>
+                <div class="tm__name">
+                <a href="stone-edge.html">
+                        Stone Edge                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeGround">
+                                <div class="tm__number">
+                    TM.                    58                </div>
+                <div class="tm__name">
+                <a href="earthquake.html">
+                        Earthquake                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeNormal">
+                                <div class="tm__number">
+                    TM.                    59                </div>
+                <div class="tm__name">
+                <a href="mega-kick.html">
+                        Mega Kick                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typePoison">
+                                <div class="tm__number">
+                    TM.                    60                </div>
+                <div class="tm__name">
+                <a href="gunk-shot.html">
+                        Gunk Shot                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeBug">
+                                <div class="tm__number">
+                    TM.                    61                </div>
+                <div class="tm__name">
+                <a href="megahorn.html">
+                        Megahorn                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeFighting">
+                                <div class="tm__number">
+                    TM.                    62                </div>
+                <div class="tm__name">
+                <a href="superpower.html">
+                        Superpower                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeWater">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    63                </div>
+                <div class="tm__name">
+                <a href="hydro-pump.html">
+                        Hydro Pump                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeFlying">
+                                <div class="tm__number">
+                    TM.                    64                </div>
+                <div class="tm__name">
+                <a href="brave-bird.html">
+                        Brave Bird                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeGrass">
+                                <div class="tm__number">
+                    TM.                    65                </div>
+                <div class="tm__name">
+                <a href="solarbeam.html">
+                        SolarBeam                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeGrass">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    66                </div>
+                <div class="tm__name">
+                <a href="seed-flare.html">
+                        Seed Flare                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeGhost">
+                                <div class="tm__number">
+                    TM.                    67                </div>
+                <div class="tm__name">
+                <a href="shadow-force.html">
+                        Shadow Force                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeElectric">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    68                </div>
+                <div class="tm__name">
+                <a href="thunder.html">
+                        Thunder                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeFire">
+                                <div class="tm__number">
+                    TM.                    69                </div>
+                <div class="tm__name">
+                <a href="fire-blast.html">
+                        Fire Blast                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeIce">
+                                <div class="tm__number">
+                    TM.                    70                </div>
+                <div class="tm__name">
+                <a href="blizzard.html">
+                        Blizzard                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeDragon">
+                                <div class="tm__number">
+                    TM.                    71                </div>
+                <div class="tm__name">
+                <a href="outrage.html">
+                        Outrage                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeFire">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    72                </div>
+                <div class="tm__name">
+                <a href="overheat.html">
+                        Overheat                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeDragon">
+                                <div class="tm__number">
+                    TM.                    73                </div>
+                <div class="tm__name">
+                <a href="draco-meteor.html">
+                        Draco Meteor                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeElectric">
+                                <div class="tm__number">
+                    TM.                    74                </div>
+                <div class="tm__name">
+                <a href="magnet-rise.html">
+                        Magnet Rise                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeGround">
+                                <div class="tm__number">
+                    TM.                    75                </div>
+                <div class="tm__name">
+                <a href="spikes.html">
+                        Spikes                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeElectric">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    76                </div>
+                <div class="tm__name">
+                <a href="thunder-wave.html">
+                        Thunder Wave                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeFire">
+                                <div class="tm__number">
+                    TM.                    77                </div>
+                <div class="tm__name">
+                <a href="will-o-wisp.html">
+                        Will-O-Wisp                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typePoison">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    78                </div>
+                <div class="tm__name">
+                <a href="toxic.html">
+                        Toxic                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeGrass">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    79                </div>
+                <div class="tm__name">
+                <a href="spore.html">
+                        Spore                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeFlying">
+                                <div class="tm__number">
+                    TM.                    80                </div>
+                <div class="tm__name">
+                <a href="tailwind.html">
+                        Tailwind                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeDark">
+                                <div class="tm__number">
+                    TM.                    81                </div>
+                <div class="tm__name">
+                <a href="taunt.html">
+                        Taunt                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typePsychic">
+                                <div class="tm__number">
+                    TM.                    82                </div>
+                <div class="tm__name">
+                <a href="trick.html">
+                        Trick                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typePsychic">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    83                </div>
+                <div class="tm__name">
+                <a href="trick-room.html">
+                        Trick Room                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typePsychic">
+                                <div class="tm__number">
+                    TM.                    84                </div>
+                <div class="tm__name">
+                <a href="light-screen.html">
+                        Light Screen                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typePsychic">
+                                <div class="tm__number">
+                    TM.                    85                </div>
+                <div class="tm__name">
+                <a href="reflect.html">
+                        Reflect                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typePsychic">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    86                </div>
+                <div class="tm__name">
+                <a href="calm-mind.html">
+                        Calm Mind                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeDark">
+                                <div class="tm__number">
+                    TM.                    87                </div>
+                <div class="tm__name">
+                <a href="nasty-plot.html">
+                        Nasty Plot                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeNormal">
+                                <div class="tm__number">
+                    TM.                    88                </div>
+                <div class="tm__name">
+                <a href="swords-dance.html">
+                        Swords Dance                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typePsychic">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    89                </div>
+                <div class="tm__name">
+                <a href="agility.html">
+                        Agility                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeNormal">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    90                </div>
+                <div class="tm__name">
+                <a href="pound.html">
+                        Pound                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeNormal">
+                                <div class="tm__number">
+                    TM.                    91                </div>
+                <div class="tm__name">
+                <a href="sketch.html">
+                        Sketch                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeNormal">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    TM.                    92                </div>
+                <div class="tm__name">
+                <a href="splash.html">
+                        Splash                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeNormal">
+                                <div class="tm__number">
+                    HM.                    1                </div>
+                <div class="tm__name">
+                <a href="cut.html">
+                        Cut                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeFlying">
+                                <div class="tm__number">
+                    HM.                    2                </div>
+                <div class="tm__name">
+                <a href="fly.html">
+                        Fly                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeWater">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    HM.                    3                </div>
+                <div class="tm__name">
+                <a href="surf.html">
+                        Surf                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeNormal">
+                                <div class="tm__number">
+                    HM.                    4                </div>
+                <div class="tm__name">
+                <a href="strength.html">
+                        Strength                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeFlying">
+                                <div class="tm__number">
+                    HM.                    5                </div>
+                <div class="tm__name">
+                <a href="defog.html">
+                        Defog                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeFighting">
+                                <div class="tm__number">
+                    HM.                    6                </div>
+                <div class="tm__name">
+                <a href="rock-smash.html">
+                        Rock Smash                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+                    <div class="pokepage__tm typeWater">
+                                    <div class="tm__incompatible"></div>
+                                <div class="tm__number">
+                    HM.                    7                </div>
+                <div class="tm__name">
+                <a href="waterfall.html">
+                        Waterfall                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_no">
+                    NO                </div>
+            </div>
+                    <div class="pokepage__tm typeNormal">
+                                <div class="tm__number">
+                    HM.                    8                </div>
+                <div class="tm__name">
+                <a href="rock-climb.html">
+                        Rock Climb                    </a>
+                </div>
+                <div class="tm__compatible tm__compatible_yes">
+                    YES                </div>
+            </div>
+            </div>
+    <div class="pokepage__movegraph">
+        <script src="javascript/chart.js"></script>
+        <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+        <script>
+            var xValues = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,];
+
+            new Chart("myChart", {
+            type: "line",
+            data: {
+                labels: xValues,
+                datasets: [{ 
+                    data: [1,1,10,20,30,40,50,60,70,80,90,],
+                    borderColor: "black",
+                    fill: false,
+                    pointRadius: 3,
+                    lineTension: 0,
+                    }, { 
+                    data: [1,3,6,9,12,15,18,21,24,27,30,32,33,36,39,41,44,47,50,53,],
+                    borderColor: "#73eda0",
+                    fill: false,
+                    pointRadius: 3,
+                    lineTension: 0,
+                }]
+            },
+            options: {
+                legend: {display: false}
+            }
+            });
+        </script>
+        <div class="movegraph__legend">
+            <div class="movegraph__legenditem">
+                <span class="movegraph__legenditemcolor" style="background-color: black;"></span>
+                <span>This Pokemon</span>
+            </div>
+            <div class="movegraph__legenditem">
+                <span class="movegraph__legenditemcolor" style="background-color: #73eda0;"></span>
+                <span>Average Pokemon</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="js-gotop">- top -</div>
