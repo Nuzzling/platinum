@@ -1,0 +1,1315 @@
+/* 
+-- Blue:
+#084A6B
+#39739C
+#63A5BD
+#c7dcea
+-- Purple:
+#7B0042
+#CE4AA5
+#E76BB5
+-- Yellow
+#FFC608
+#FFF752 
+*/
+
+
+header{
+    background-color: #084A6B;
+}
+
+header a{
+    color: white;
+}
+header a:hover{
+    color: #E76BB5;
+}
+
+.backendcontainer{
+    background-color: #63A5BD;
+    min-height: calc(100vh - 56px);
+}
+
+.kepttrack{
+    background-color: #FFF752;
+}
+
+
+.index{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 50px;
+    gap: 40px;
+    justify-content: center;
+}
+
+.index .indexlink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background-color: #39739C;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.index .indexlink:hover{
+    background-color: #FFC608;
+    color: black;
+}
+
+.index .indexlink .indexlink__image{
+    background-color: #c7dcea;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.index .indexlink:hover .indexlink__image{
+    background-color: #FFF752 ;
+}
+
+
+.personals .personals__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5px;
+    padding-top: 20px;
+}
+
+.personals .personals__container .personals__personal{
+    display: flex;
+    width: 13%;
+    align-items: center;
+    gap: 5px;
+    background-color: #39739C;
+    margin-bottom: 10px;
+    padding-left: 12px;
+    border-radius: 200px;
+    color: black;
+    text-decoration: none;
+}
+
+.personals .personals__container .personals__personal:hover{
+    background-color: #FFF752;
+}
+
+
+
+.personal {
+    min-height: calc(100vh - 56px);
+    padding-top: 10px;
+    background-color: #39739C;
+}
+
+.personal .personaltop{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2vh;
+}
+
+.personal .personalleft .personal__image{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 1vh;
+    height: 10vh;
+}
+
+.personal .personalleft .personal__image img{
+    background-color: #E76BB5;
+    border-radius: 50%;
+}
+
+.personal .personalleft .personal__image a{
+    background-color: #E76BB5;
+    border-radius: 50%;
+    min-height: 30px;
+    min-width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.personal .personalleft .personal__image a:hover{
+    background-color: #7B0042;
+}
+
+.personal .personal__evolutions{
+    width: 100%;
+    overflow-y: scroll;
+    background-color: #63A5BD;
+    padding: 5px;
+    margin-bottom: 10px;
+    max-height: 12vh;
+    margin-bottom: 2vh;
+}
+
+.personal .personal__evolutions .personal__evolution{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.personal .personal__evolutions .personal__evolution select{
+    cursor: pointer;
+}
+
+.personal .personal__trainers{
+    width: 100%;
+    overflow-y: scroll;
+    max-height: 45vh;
+    background-color: #63A5BD;
+    padding: 5px;
+}
+
+.personal .personal__trainers .personal__trainer{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    gap: 1%;
+}
+
+.personal .personal__trainers .personal__trainer .personal__trainer-level{
+    width: 11%;
+}
+
+.personal .personal__trainers .personal__trainer .personal__trainer-location{
+    width: 25%;
+}
+
+.personal .personal__trainers .personal__trainer .personal__trainer-location a{
+    color: white;
+    text-decoration: none;
+}
+
+.personal .personal__trainers .personal__trainer .personal__trainer-location a:hover{
+    text-decoration: underline;
+}
+
+.personal .personal__trainers .personal__trainer .personal__trainer-image{
+    background-color: #FFF752;
+    border-radius: 50%;
+    width: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal .personal__trainers .personal__trainer .personal__trainer-image-boss{
+    background-color: #FF1111;
+}
+
+.personal .personal__trainers .personal__trainer .personal__trainer-name{
+    margin-left: 1%;
+    width: 56%;
+}
+
+.personal .personal__trainers .personal__trainer .personal__trainer-name a{
+    color: white;
+    text-decoration: none;
+}
+
+.personal .personal__trainers .personal__trainer .personal__trainer-name a:hover{
+    text-decoration: underline;
+}
+
+.personal .personal__stats{
+    overflow-y: scroll;
+    background-color: #63A5BD;
+    padding: 10px;
+    max-height: 70vh;
+    width: 610px;
+}
+
+.personal .personal__stats form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.personal .personal__stats .personal__stat{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 280px;
+    border-bottom: 1px solid #7B0042;
+    padding-bottom: 5px;
+}
+
+.personal .personal__stats .personal__stat span:first-child{
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+.personal .personal__stats .personal__stat input, .personal .personal__stats .personal__stat select{
+    width: 150px;
+    font-size: 16px;
+    border: 1px solid black;
+    padding-left: 2px;
+}
+
+.personal .personal__stats .personal__stat select{
+    cursor: pointer;
+}
+
+.personal .personal__moves{
+    overflow-y: scroll;
+    background-color: #63A5BD;
+    padding: 10px;
+    max-height: 70vh;
+}
+
+.personal .personal__moves form{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.personal .personal__moves .personal__move{
+    display: flex;
+    gap: 5px
+}
+
+.personal .personal__moves .personal__move select{
+    border: 1px solid black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.personal .personal__moves .personal__move input[type="text"]{
+    border: 1px solid black;
+    font-size: 16px;
+    width: 50px;
+    padding-left: 4px;
+}
+
+.personal .personal__tms{
+    width: 430px;
+    padding: 10px 10px 10px;
+    max-height: 70vh;
+    overflow-y: scroll;
+    background-color: #63A5BD;
+}
+
+.personal .personal__tms form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.personal .personal__tms .personal__tm{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 190px;
+}
+
+.personal .personal__tms .personal__tm input{
+    cursor: pointer;
+}
+
+.personal .personal__tms .personal__tm label{
+    cursor: pointer;
+}
+
+.personal .personal__graph{
+    padding: 0px 20px;
+    display: flex;
+    gap: 2px;
+    height: 17vh;
+    overflow: hidden;
+}
+
+.personal .personal__graph .graph__part{
+    border: 1px solid black;
+    background-color: white;
+    min-width: 1px;
+    height: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.personal .personal__graph .graph__part-boss{
+    background-color: #FFF752 ;
+}
+
+.personal .personal__graph .graph__popuparrow{
+    background-color: #E76BB5;
+    border: 1px solid #7B0042;
+    height: 13px;
+    width: 13px;
+    position: absolute;
+    margin-top: 6px;
+    transform: rotate(45deg);
+}
+
+.personal .personal__graph .graph__popuparrow-odd{
+    margin-top: 16px;
+}
+
+.personal .personal__graph .graph__popup{
+    position: absolute;
+    margin-top: 13px;
+    background-color: rgba(231, 107, 181, 0.9);
+    border: 1px solid #7B0042;
+    font-size: 11px;
+    padding: 5px 7px;
+    white-space: nowrap;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.personal .personal__graph .graph__popup:hover{
+    z-index: 2;
+}
+
+.personal .personal__graph .graph__popup-odd{
+    margin-top: 23px;
+}
+
+.personal .personal__graph .graph__popup .graph__popup-trainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.personal .personal__graph .graph__popup .graph__popup-trainer-this{
+    font-weight: bold;
+    font-size: 13px;
+    background-color: rgba(255, 247, 82, 0.8);
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+.personal .personal__graph .graph__popup .graph__popup-trainer-image{
+    display: block;
+    background-color: rgba(255, 247, 82, 0.5);
+    border-radius: 50%;
+}
+
+.personal .personal__graph .graph__popup .graph__popup-trainer-image img{
+    height: 25px;
+}
+
+
+.battles{
+    padding: 10px 30px;
+}
+
+.battlescontainer .battles__location{
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+.battlescontainer .battles__battlepart{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 3.33333333%;
+    border-bottom: 1px solid #39739C;
+}
+
+.battlescontainer .battles__battle{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #39739C;
+    border: 1px solid #084A6B;
+    padding: 2px 0px;
+    position: relative;
+}
+
+.battlescontainer .battles__battle:hover{
+    text-decoration: underline;
+}
+
+.battlescontainer .battles__battle .battle__image{
+    margin-bottom: -1px;
+}
+
+.battlescontainer .battles__battle .battle__name{
+    flex-grow: 2;
+    font-weight: bold;
+}
+
+.battlescontainer .battles__battle .battle__pokemons{
+    display: flex;
+    width: 260px;
+}
+
+.battlescontainer .battles__battle .battle__pokemons .battle__pokemon{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+
+.battlescontainer .battles__battle .battle__pokemons .battle__pokemon img{
+    background-color: #c7dcea;
+    border-radius: 50%;
+}
+
+.battlescontainer .battles__battle .battle__pokemons .battle__pokemon span{
+    font-size: 10px;
+    margin-left: -13px;
+}
+
+.battlescontainer .battles__battle .battle__level{
+    position: absolute;
+    right: 10px;
+    right: -31px;
+    font-size: 12px;
+}
+
+
+.battle{
+    padding: 10px 20px;
+}
+
+.battle .battle__top{
+    display: flex;
+    gap: 20px;
+}
+
+.battle .battle__top .battle__othertrainers{
+    width: 620px;
+    min-width: 620px;
+    overflow-y: scroll;
+    border: 1px solid #084A6B;
+    padding: 10px 10px 0px;
+    height: 210px;
+}
+
+.battle .battle__top .battle__othertrainers .battles__battle{
+    width: 93%;
+}
+
+.battle .battle__top .battle__trainer{
+    flex-grow: 2;
+    background-color: #39739C;
+    border-radius: 3px;
+}
+
+.battle .battle__top .battle__trainer{
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.battle .battle__top .battle__trainer .trainer__image{
+    background-color: #c7dcea;
+    height: 150px;
+    width: 150px;
+    min-width: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.battle .battle__top .battle__trainer .trainer__image img{
+    width: 80%;
+    height: 80%;
+}
+
+.battle .battle__top .battle__trainer .trainer__image .trainer__owid{
+    position: absolute;
+    background-color: #FFF752;
+    padding: 2px 5px;
+    font-size: 15px;
+    border-radius: 8px;
+    bottom: -10px;
+}
+
+.battle .battle__top .battle__trainer .trainer__settings{
+    display: flex;
+    flex-grow: 2;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    row-gap: 3px;
+}
+
+.battle .battle__top .battle__trainer .trainer__settings a{
+    color: black;
+    text-decoration: none;
+}
+
+.battle .battle__top .battle__trainer .trainer__settings a:hover{
+    text-decoration: underline;
+}
+
+.battle .battle__top .battle__trainer .trainer__settings h4{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.battle .battle__top .battle__trainer .trainer__settings .trainer__setting{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.battle .battle__top .battle__trainer .trainer__settings .trainer__setting label{
+    flex-grow: 2;
+    color: wheat;
+}
+
+.battle .battle__top .battle__trainer .trainer__settings .trainer__setting input{
+    padding-left: 3px;
+}
+
+.battle .battle__top .battle__trainer .trainer__settings .trainer__setting select{
+    cursor: pointer;
+}
+
+.battle .battle__top .battle__trainer .trainer__settings .trainer__setting input, .battle .battle__top .battle__trainer .trainer__settings .trainer__setting select{
+    width: 240px;
+    border: 1px solid black;
+}
+
+.battle .battle__top .battle__trainer .trainer__settings input[type="submit"]{
+    width: 80px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.battle .battle__top .battle__trainer .trainer__settings .trainer__note{
+    max-width: 100%;
+    width: 100%;
+    margin-top: 3px;
+}
+
+.battle .battle__top .battle__trainer .trainer__settings textarea{
+    max-width: 100% !important;
+    width: 100% !important;
+    border: 1px solid black;
+    padding: 1px 3px;
+}
+
+.battle .battle__ais{
+    margin-top: 10px;
+    background-color: #39739C;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 3px 5px;
+    font-size: 14px;
+    gap: 12px;
+}
+
+.battle .battle__ais .battle_ai{
+    display: flex;
+    gap: 2px;
+}
+
+.battle .battle__ais input{
+    cursor: pointer;
+    accent-color: #00ff00;
+}
+
+.battle .battle__ais .battle_ai label{
+    cursor: pointer;
+}
+
+.battlepage__pokemons{
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.battlepage__pokemons .battle__pokemon-container{
+    display: flex;
+    gap: 20px;
+}
+
+.battlepage__pokemons .battle__pokemon-container .battle__pokemon{
+    display: flex;
+    background-color: #39739C;
+    border-radius: 10px;
+    align-items: center;
+    padding: 3px 10px;
+    gap: 20px;
+}
+
+.battlepage__pokemons .battle__pokemon-container .battle__pokemon .pokemon__image{
+    background-color: #c7dcea;
+    border-radius: 50%;
+}
+
+.battlepage__pokemons .battle__pokemon-container .battle__pokemon .pokemon__details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 480px;
+    column-gap: 20px;
+    row-gap: 5px;
+}
+
+.battlepage__pokemons .battle__pokemon-container .battle__pokemon .pokemon__details .pokemon__detail{
+    display: flex;
+}
+
+.battlepage__pokemons .battle__pokemon-container .battle__pokemon .pokemon__details .pokemon__detail-big{
+    width: 100%;
+}
+
+.battlepage__pokemons .battle__pokemon-container .battle__pokemon .pokemon__details .pokemon__detail label{
+    width: 90px;
+}
+
+.battlepage__pokemons .battle__pokemon-container .battle__pokemon .pokemon__details .pokemon__detail input{
+    padding-left: 3px;
+}
+
+.battlepage__pokemons .battle__pokemon-container .battle__pokemon .pokemon__details .pokemon__detail select{
+    cursor: pointer;
+}
+
+.battlepage__pokemons .battle__pokemon-container .battle__pokemon .pokemon__details .pokemon__detail input, .battlepage__pokemons .battle__pokemon-container .battle__pokemon .pokemon__details .pokemon__detail select{
+    width: 140px;
+    border: 1px solid black;
+}
+
+.battlepage__pokemons .battle__pokemon-container .battle__pokemon .pokemon__moves{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 5px;
+    flex-direction: column;
+    border-left: 1px solid #084A6B;
+    padding-left: 10px;
+}
+
+.battlepage__pokemons .battle__pokemon-container .battle__pokemon .pokemon__moves select{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.battlepage__pokemons .battle__pokemon-container .battle__pokemon .pokemon__moves .pokemon__move{
+    display: flex;
+    gap: 5px;
+}
+
+.battlepage__pokemons .battle__pokemon-container .battle__pokemon .pokemon__moves .pokemon__move .type{
+    border: 1px solid black;
+    width: 65px;
+}
+
+.battlepage__pokemons .battle__pokemon-container .battle__moveoptions{
+    border: 1px solid #084A6B;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding: 8px 10px;
+    height: 115px;
+    background-color: #c7dcea;
+    flex-grow: 2;
+}
+
+.battlepage__pokemons .battle__pokemon-container .battle__moveoptions .battle__moveoption{
+    color: #404040;
+    height: 30px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.battlepage__pokemons .battle__pokemon-container .battle__moveoptions .battle__moveoption-available{
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+}
+
+.battlepage__pokemons input[type="submit"]{
+    cursor: pointer;
+}
+
+.battle .battlepage__addpokemon{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.battle .battlepage__addpokemon input{
+    cursor: pointer;
+    padding: 2px 10px;
+    background-color: #39739C;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.battle .battlepage__addpokemon input:hover{
+    background-color: #3e7ca8;
+}
+
+
+
+.trainerclasses{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.trainerclasses .classtable table{
+    margin-bottom: 40px;
+}
+
+.trainerclasses .classtable table th{
+    height: 70px;
+    background-color: #39739C;
+    padding: 0px 4px;
+    font-size: 14px;
+    position: sticky;
+    top: 0;
+}
+.trainerclasses .classtable table th, .trainerclasses .classtable table td{
+    border: 1px solid #084A6B;
+}
+
+.trainerclasses .classtable table th.class__type span{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    width: 20px;
+    max-width: 20px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trainerclasses .classtable table tr:nth-child(odd){
+    background-color: #c7dcea;
+}
+.trainerclasses .classtable table tr:nth-child(even){
+    background-color: #a3c5dc;
+}
+
+.trainerclasses .classtable table td{
+    text-align: center;
+    padding: 3px 0px 1px;
+}
+
+.trainerclasses .classtable table td.classtable__id{
+    padding: 0px 10px;
+}
+
+.trainerclasses .classtable table td.classtable__name{
+    text-align: left;
+    padding: 0px 6px;
+}
+
+.trainerclasses .classtable table td.classtable__image img{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+}
+
+.trainerclasses .classtable table td.classtable__owsprite{
+    padding: 0px 5px;
+}
+
+.trainerclasses .classtable table td.classtable__owsprite span{
+    display: block;
+    font-weight: bold;
+    background-color: #FFF752;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    line-height: 34px;
+}
+
+.trainerclasses .classtable table td.classtable__typeamount{
+    font-size: 20px;
+}
+
+.trainerclasses .classtable table td.classtable__ranked{
+    padding: 0px 5px;
+}
+
+.trainerclasses .classtable table td.classtable__ranked .type{
+    padding: 2px 5px;
+    border: 1px solid black;
+}
+
+.trainerclasses .classtable table .classtable__grayed{
+    background-color: rgba(51, 51, 51, 0.6);
+    font-size: 15px !important;
+}
+
+
+
+.encounters {
+    padding: 20px 40px;
+}
+
+.sinnohmap_holder{
+    background-color: #1297B1;
+    min-height: 220px;
+    min-width: 261px;
+}
+
+.sinnohmap_holder .sinnohmap{
+    background-image: url('../images/sinnohmap.png');
+    height: 220px;
+    width: 261px;
+}
+
+.encounters .sinnohmap_holder{
+    width: 400px;
+    height: 280px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #084A6B;
+    border-radius: 10px;
+}
+
+.encounters .sinnohmap_holder .sinnohmap .sinnohmap__location{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.encounters .sinnohmap_holder .sinnohmap .sinnohmap__location:hover{
+    background-color: #DE3163;
+}
+
+.encounters .encounters__locations{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.encounters .encounters__locations a{
+    width: 25%;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 3px;
+}
+
+.encounters .encounters__locations .encounters__location{
+    text-align: center;
+    padding: 2px;
+    margin: 3px;
+    border: 2px solid #084A6B;
+}
+
+.encounters .encounters__locations .encounters__location:hover{
+    background-color: #c7dcea;
+}
+
+
+
+.encounter{
+    padding: 20px 5px 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.encounter .encounter__top{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.encounter .encounter__top .encounter__location{
+    font-size: 20px;
+    font-weight: bold;
+    flex-grow: 2;
+    max-width: 750px;
+}
+
+.encounter .encounter__top .encounter__buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.encounter .encounter__top .encounter__buttons a{
+    background-color: #E76BB5;
+    border-radius: 50%;
+    min-height: 30px;
+    min-width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.encounter .encounter__top .encounter__buttons a:hover{
+    background-color: #7B0042;
+}
+
+.encounter .encounterpart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.encounter .encounterpart .encounterpart__top{
+    display: flex;
+    gap: 10px;
+}
+
+.encounter .encounterpart .encounterpart__top .encounterpart__rate input{
+    border: 1px solid black;
+    background-color: #c7dcea;
+    padding: 2px 3px;
+    max-width: 40px;
+}
+
+.encounter .encounterpart .encounterpart__top .encounterpart__save input{
+    cursor: pointer;
+    padding: 2px 10px;
+    background-color: #39739C;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.encounter .encounterpart .encounterpart__top .encounterpart__save input:hover{
+    background-color: #3e7ca8;
+}
+
+.encounter .encounterpart .encounterpart__table table th{
+    font-weight: normal;
+    background-color: #39739C;
+}
+
+.encounter .encounterpart .encounterpart__table table th, .encounter .encounterpart .encounterpart__table table td{
+    border: 1px solid #084A6B;
+    padding: 2px 4px;
+}
+
+.encounter .encounterpart .encounterpart__table table th span{
+    display: block;
+}
+
+.encounter .encounterpart .encounterpart__table table th .encounterpart__table__stat{
+    width: 100%;
+    text-align: left;
+    color: #c7dcea;
+    font-size: 12px;
+}
+
+.encounter .encounterpart .encounterpart__table table th img{
+    margin-top: -13px;
+    background-color: #c7dcea;
+    border-radius: 50%;
+}
+
+.encounter .encounterpart .encounterpart__table table th .encounterpart__table__rate{
+    font-weight: bold;
+}
+
+.encounter .encounterpart .encounterpart__table table tr:nth-child(even){
+    background-color: #93c1d2;
+}
+
+.encounter .encounterpart .encounterpart__table table input{
+    padding-left: 3px;
+}
+
+.encounter .encounterpart .encounterpart__table table select{
+    cursor: pointer;
+}
+
+.encounter .encounterpart .encounterpart__table table select, .encounter .encounterpart .encounterpart__table table input{
+    width: 100px;
+    border: 1px solid black;
+}
+
+.encounter .encounter__others{
+    display: flex;
+    flex-direction: column;
+}
+
+.encounter .encounter__others a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.encounter .encounter__others a:hover{
+    text-decoration: underline;
+}
+
+
+
+.whiteitems{
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+.whiteitems .whiteitems__item{
+    display: flex;
+    background-color: #39739C;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    padding: 0px 5px;
+    width: 13%;
+    border-radius: 16px;
+}
+.whiteitems .whiteitems__item:hover{
+    background-color: #FFF752;
+}
+
+.whiteitems .whiteitems__item .whiteitems__order{
+    font-size: 11px;
+    color: white;
+    margin-bottom: 1px;
+    min-width: 28px;
+}
+.whiteitems .whiteitems__item:hover .whiteitems__order{
+    color: black;
+}
+
+.whiteitems .whiteitems__item .whiteitems__name{
+    margin-bottom: 2px;
+}
+
+
+
+.whiteitem{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whiteitem .whiteitem__links{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.whiteitem .whiteitem__links a{
+    color: white;
+    text-decoration: none;
+    height: 42px;
+    width: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E76BB5;
+    border-radius: 50%;
+    font-size: 18px;
+}
+.whiteitem .whiteitem__links a:hover{
+    background-color: #7B0042;
+}
+
+.whiteitem .whiteitem__links a img{
+    height: 32px;
+    width: 32px;
+}
+
+.whiteitem .whiteitem__title{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.whiteitem .whiteitem__description{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.whiteitem .whiteitem__places input[type="submit"] {
+    cursor: pointer;
+}
+
+.whiteitem .whiteitem__places table{
+    margin-bottom: 20px;
+}
+
+.whiteitem .whiteitem__places table td{
+    padding: 4px;
+    border: 1px solid #084A6B;
+}
+
+.whiteitem .whiteitem__places input{
+    padding-left: 3px;
+}
+
+.whiteitem .whiteitem__places select{
+    cursor: pointer;
+}
+
+.whiteitem .whiteitem__places textarea{
+    padding: 2px 3px;
+    width: 775px;
+    height: 63px;
+}
+
+.whiteitem .whiteitem__places input, .whiteitem .whiteitem__places select{
+    width: 140px;
+    height: 20px;
+}
+
+.whiteitem .whiteitem__places input, .whiteitem .whiteitem__places select, .whiteitem .whiteitem__places textarea{
+    border: 1px solid black;
+}
+
+
+
+
+/* 
+-- Blue:
+#084A6B
+#39739C
+#63A5BD
+#c7dcea
+-- Purple:
+#7B0042
+#CE4AA5
+#E76BB5
+-- Yellow
+#FFC608
+#FFF752
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.overworlditems__container{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    gap: 20px;
+}
+
+.overworlditemclass{
+    width: 15%;
+    background-color: #F8EA9F;
+    border-radius: 20px;
+}
+.overworlditemclass h2{
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+.overworlditemclass__script{
+    font-size: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.overworlditemclass_update{
+    margin: 10px auto;
+    display: block;
+    cursor: pointer;
+}
+
+.overworlditem{
+    background-color: #F9F2CA;
+    width: 95%;
+    margin: 2px auto;
+    border-radius: 15px;;
+    display: flex;
+    justify-content: space-between;
+}
+.overworlditem__start{
+    width: 50%;
+}
+.overworlditem__name{
+    font-weight: bold;
+}
+.overworlditem__amount{
+    width: 45px;
+}
+.overworlditem__amount input{
+    width: 45px;
+    height: 90%;
+    margin-top: 5%;
+    font-size: 17px;
+}
+.overworlditem__percentile{
+    font-size: 10px;
+    width: 15%;
+    line-height: 28px;
+}
+.overworlditem__pocket{
+    font-size: 9px;
+}

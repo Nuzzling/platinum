@@ -78,3 +78,18 @@ table{
 .typeQuestionmark{
     background-color: #809355;
 }
+
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 12px 0px 15px;
+}
+
+header a{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
