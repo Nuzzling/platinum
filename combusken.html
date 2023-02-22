@@ -139,11 +139,19 @@
     </div>
     <div class="pokepage__row pokepage__locations">
         <div class="sinnohmap_holder">
-            <div class="sinnohmap__emptydisplay">- area unknown -</div>            <div class="sinnohmap">
-                            </div>
+                        <div class="sinnohmap">
+                <div class="sinnohmap__pointer" style="margin-left: 138px;margin-top: 152px;width: 7px;height: 7px;" title="Trophy Garden"></div>            </div>
         </div>
         <div class="pokepage__locationlist">
-            <div class="locationlist__header"><img src="images/icons/grass.png">Grass</div><div class="locationlist__none">none</div><div class="locationlist__header"><img src="images/icons/surf.png">Surf</div><div class="locationlist__none">none</div><div class="locationlist__header"><img src="images/icons/oldrod.png">Old rod</div><div class="locationlist__none">none</div><div class="locationlist__header"><img src="images/icons/goodrod.png">Good rod</div><div class="locationlist__none">none</div><div class="locationlist__header"><img src="images/icons/superrod.png">Super rod</div><div class="locationlist__none">none</div><div class="locationlist__header"><img src="images/icons/honey.png"></div><div class="locationlist__none">no</div>        </div>
+            <div class="locationlist__header"><img src="images/icons/grass.png">Grass</div>                        <div class="locationlist__item">
+                            <div class="locationlist__rate">10%</div>
+                            <div class="locationlist__location">
+                                <a href="trophy-garden.html">
+                                    Trophy Garden                                </a>
+                            </div>
+                            <div class="locationlist__levels">lv. 25</div>
+                        </div>
+                    <div class="locationlist__header"><img src="images/icons/surf.png">Surf</div><div class="locationlist__none">none</div><div class="locationlist__header"><img src="images/icons/oldrod.png">Old rod</div><div class="locationlist__none">none</div><div class="locationlist__header"><img src="images/icons/goodrod.png">Good rod</div><div class="locationlist__none">none</div><div class="locationlist__header"><img src="images/icons/superrod.png">Super rod</div><div class="locationlist__none">none</div><div class="locationlist__header"><img src="images/icons/honey.png"></div><div class="locationlist__none">no</div>        </div>
     </div>
     <div class="pokepage__moves">
         <table>
@@ -352,20 +360,7 @@
                         <td class="move__pp">5</td>
                         <td class="move__effect">Causes Harsh Sunlight</td>
                     </tr>
-                                                                                                                <tr>
-                        <td class="move__level">39</td>
-                        <td class="move__name">
-                            <a href="sacred-fire.html">
-                                Sacred Fire                            </a>
-                        </td>
-                        <td class="move__type"><span class="type typeFire">Fire</span></td>
-                        <td class="move__power">100</td>
-                        <td class="move__category"><img src="https://www.serebii.net/pokedex-bw/type/physical.png"></td>
-                        <td class="move__accuracy">95</td>
-                        <td class="move__pp">5</td>
-                        <td class="move__effect">Thaws user; chance to Burn</td>
-                    </tr>
-                                                                                                                <tr>
+                                                                                                                                                                        <tr>
                         <td class="move__level">41</td>
                         <td class="move__name">
                             <a href="aerial-ace.html">
@@ -391,7 +386,20 @@
                         <td class="move__pp">5</td>
                         <td class="move__effect">Lowers user's Def and SpDef</td>
                     </tr>
-                                                                                                                                                                                                                                                            <tr>
+                                                                                                                                                                        <tr>
+                        <td class="move__level">48</td>
+                        <td class="move__name">
+                            <a href="agility.html">
+                                Agility                            </a>
+                        </td>
+                        <td class="move__type"><span class="type typePsychic">Psychic</span></td>
+                        <td class="move__power">0</td>
+                        <td class="move__category"><img src="https://www.serebii.net/pokedex-bw/type/other.png"></td>
+                        <td class="move__accuracy">0</td>
+                        <td class="move__pp">30</td>
+                        <td class="move__effect">Sharply raises Spd (Status)</td>
+                    </tr>
+                                                                                                                                            <tr>
                         <td class="move__level">51</td>
                         <td class="move__name">
                             <a href="flare-blitz.html">
@@ -1484,13 +1492,13 @@
             data: {
                 labels: xValues,
                 datasets: [{ 
-                    data: [1,3,5,9,12,14,15,19,22,25,28,30,33,36,37,39,41,44,51,],
+                    data: [1,3,5,9,12,14,15,19,22,25,28,30,33,36,37,41,44,48,51,],
                     borderColor: "black",
                     fill: false,
                     pointRadius: 3,
                     lineTension: 0,
                     }, { 
-                    data: [1,3,6,9,12,15,18,21,24,27,30,32,33,36,39,41,44,47,50,53,],
+                    data: [1,3,6,9,12,15,18,20,23,26,28,31,33,36,38,41,43,47,50,53,],
                     borderColor: "#73eda0",
                     fill: false,
                     pointRadius: 3,
