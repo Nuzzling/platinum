@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Nuzzling Platinum | PIDGEOT</title>
+  <title>Nuzzling Platinum | Pidgeot</title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/frontend.css">
   <link rel="icon" type="image/x-icon" href="images/nuzzlingplatinum.ico">
@@ -33,7 +33,7 @@
                 </a>
                 <div class="detailstable__item">
                     <div class="detailstable__label">Name:</div>
-                    <div class="detailstable__value">PIDGEOT</div>
+                    <div class="detailstable__value">Pidgeot</div>
                 </div>
                 <a href="rattata.html">
                     <img src="https://www.serebii.net/pokedex-sm/icon/019.png">>
@@ -44,7 +44,13 @@
                 </div>
                 <div class="detailstable__item">
                     <div class="detailstable__label">Items:</div>
-                    <div class="detailstable__value detailstable__value-items"> <div class="detailshelditem__none">no hold items</div> </div>
+                    <div class="detailstable__value detailstable__value-items">                                 <div class="detailshelditem" title="Coba Berry">
+                                    <div class="detailshelditem__chance">
+                                        5%
+                                    </div>    
+                                    <div class="detailshelditem__image" style="background-image: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/berry/coba.png);"></div>
+                                </div>
+                             </div>
                 </div>
                 <div class="detailstable__item">
                     <div class="detailstable__label">Ability 1:</div>
@@ -339,8 +345,21 @@
                         <td class="move__pp">20</td>
                         <td class="move__effect">Twister effect</td>
                     </tr>
-                                                                                                                <tr>
-                        <td class="move__level">36</td>
+                                                                                    <tr>
+                        <td class="move__level">35</td>
+                        <td class="move__name">
+                            <a href="extremespeed.html">
+                                ExtremeSpeed                            </a>
+                        </td>
+                        <td class="move__type"><span class="type typeNormal">Normal</span></td>
+                        <td class="move__power">80</td>
+                        <td class="move__category"><img src="https://www.serebii.net/pokedex-bw/type/physical.png"></td>
+                        <td class="move__accuracy">100</td>
+                        <td class="move__pp">5</td>
+                        <td class="move__effect">Priority +1</td>
+                    </tr>
+                                                                                                                                            <tr>
+                        <td class="move__level">38</td>
                         <td class="move__name">
                             <a href="mirror-move.html">
                                 Mirror Move                            </a>
@@ -352,7 +371,7 @@
                         <td class="move__pp">20</td>
                         <td class="move__effect">Mirror Move effect</td>
                     </tr>
-                                                                                                                                            <tr>
+                                                                                    <tr>
                         <td class="move__level">39</td>
                         <td class="move__name">
                             <a href="drill-peck.html">
@@ -1486,7 +1505,7 @@
             data: {
                 labels: xValues,
                 datasets: [{ 
-                    data: [1,4,5,6,8,11,16,18,21,23,25,28,31,34,36,39,43,48,53,],
+                    data: [1,4,5,6,8,11,16,18,21,23,25,28,31,34,35,38,39,43,48,53,],
                     borderColor: "black",
                     fill: false,
                     pointRadius: 3,

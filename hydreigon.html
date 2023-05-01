@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Nuzzling Platinum | HYDREIGON</title>
+  <title>Nuzzling Platinum | Hydreigon</title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/frontend.css">
   <link rel="icon" type="image/x-icon" href="images/nuzzlingplatinum.ico">
@@ -33,7 +33,7 @@
                 </a>
                 <div class="detailstable__item">
                     <div class="detailstable__label">Name:</div>
-                    <div class="detailstable__value">HYDREIGON</div>
+                    <div class="detailstable__value">Hydreigon</div>
                 </div>
                 <a href="wingull.html">
                     <img src="https://www.serebii.net/pokedex-sm/icon/278.png">>
@@ -44,7 +44,13 @@
                 </div>
                 <div class="detailstable__item">
                     <div class="detailstable__label">Items:</div>
-                    <div class="detailstable__value detailstable__value-items"> <div class="detailshelditem__none">no hold items</div> </div>
+                    <div class="detailstable__value detailstable__value-items">                                 <div class="detailshelditem" title="Haban Berry">
+                                    <div class="detailshelditem__chance">
+                                        5%
+                                    </div>    
+                                    <div class="detailshelditem__image" style="background-image: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/berry/haban.png);"></div>
+                                </div>
+                             </div>
                 </div>
                 <div class="detailstable__item">
                     <div class="detailstable__label">Ability 1:</div>
@@ -196,8 +202,21 @@
                         <td class="move__pp">15</td>
                         <td class="move__effect">Torment effect</td>
                     </tr>
-                                                                                                                                                                                                    <tr>
-                        <td class="move__level">13</td>
+                                                                                                                <tr>
+                        <td class="move__level">10</td>
+                        <td class="move__name">
+                            <a href="dragon-rage.html">
+                                Dragon Rage                            </a>
+                        </td>
+                        <td class="move__type"><span class="type typeDragon">Dragon</span></td>
+                        <td class="move__power">1</td>
+                        <td class="move__category"><img src="https://www.serebii.net/pokedex-bw/type/special.png"></td>
+                        <td class="move__accuracy">100</td>
+                        <td class="move__pp">10</td>
+                        <td class="move__effect">Deals 40 damage</td>
+                    </tr>
+                                                                                                                <tr>
+                        <td class="move__level">12</td>
                         <td class="move__name">
                             <a href="bite.html">
                                 Bite                            </a>
@@ -209,7 +228,7 @@
                         <td class="move__pp">25</td>
                         <td class="move__effect">Chance to Flinch</td>
                     </tr>
-                                                                                                                                                                                                    <tr>
+                                                                                                                                                                                                                                <tr>
                         <td class="move__level">18</td>
                         <td class="move__name">
                             <a href="headbutt.html">
@@ -1464,7 +1483,7 @@
             data: {
                 labels: xValues,
                 datasets: [{ 
-                    data: [1,5,8,13,18,25,28,31,34,37,39,40,42,46,48,50,52,55,57,],
+                    data: [1,5,8,10,12,18,25,28,31,34,37,39,40,42,46,48,50,52,55,57,],
                     borderColor: "black",
                     fill: false,
                     pointRadius: 3,

@@ -34,6 +34,10 @@ header a:hover{
     background-color: #FFF752;
 }
 
+.clicked{
+    background-color: #FFF752 !important;
+}
+
 
 .index{
     display: flex;
@@ -264,6 +268,7 @@ header a:hover{
     background-color: #63A5BD;
     padding: 10px;
     max-height: 70vh;
+    min-width: 236px;
 }
 
 .personal .personal__moves form{
@@ -1189,71 +1194,6 @@ header a:hover{
 
 
 
-
-/* 
--- Blue:
-#084A6B
-#39739C
-#63A5BD
-#c7dcea
--- Purple:
-#7B0042
-#CE4AA5
-#E76BB5
--- Yellow
-#FFC608
-#FFF752
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .overworlditems__container{
     display: flex;
     justify-content: center;
@@ -1313,3 +1253,981 @@ header a:hover{
 .overworlditem__pocket{
     font-size: 9px;
 }
+
+
+
+.honeytrees{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.honeytrees .honeytrees__left{
+    display: flex;
+    flex-direction: column;
+}
+
+.honeytrees .honeytrees__left .honeytrees__title{
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left: 3px;
+}
+
+.honeytrees .honeytrees__left textarea{
+    width: 300px;
+    height: 740px;
+    min-width: 200px;
+    border: 1px solid black;
+    padding: 1px 3px;
+}
+
+.honeytrees .honeytrees__right input[type="submit"]{
+    cursor: pointer;
+    padding: 0px 5px;
+}
+
+.honeytrees .honeytrees__right table{
+    margin-bottom: 10px;
+}
+
+.honeytrees .honeytrees__right table th{
+    background-color: #084A6B;
+    color: white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 6px 5px;
+}
+
+.honeytrees .honeytrees__right table tr:nth-child(even){
+    background-color: #4489a2;
+}
+
+.honeytrees .honeytrees__right table td{
+    padding: 2px 5px;
+    border: 1px solid #084A6B;
+    text-align: center;
+    font-weight: bold;
+}
+
+.honeytrees .honeytrees__right table img{
+    background-color: #c7dcea;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.honeytrees .honeytrees__right table select{
+    cursor: pointer;
+}
+
+.honeytrees .honeytrees__right table input{
+    padding-left: 3px;
+    font-size: 14px;
+}
+
+.honeytrees .honeytrees__right table select, .honeytrees .honeytrees__right table input{
+    border: 1px solid black;
+    width: 120px;
+}
+
+
+
+.fossils {
+    display: flex;
+    gap: 30px;
+    padding: 10px 70px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fossils .fossils__container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.fossils .fossil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #39739C;
+    padding: 4px 10px;
+}
+
+.fossils .fossil .fossil__title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.fossils .fossil textarea{
+    border: 1px solid black;
+    padding: 1px 3px;
+    min-width: 270px;
+    height: 70px;
+    margin-bottom: 15px;
+}
+
+.fossils .fossil .fossil__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.fossils .fossil .fossil__list .fossillist__item{
+    width: 100%;
+    display: flex;
+    background-color: #63A5BD;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 8px;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.fossils .fossil .fossil__list .fossillist__item:hover{
+    text-decoration: underline;
+}
+
+.fossils .fossil .fossil__list .fossillist__item .fossillist__chance{
+    font-weight: bold;
+    width: 60px;
+}
+
+.fossils .fossil .fossil__list .fossillist__item .fossillist__amount{
+    margin: 0px 4px;
+}
+
+.fossils .fossil .fossil__list .fossillist__item .fossillist__image{
+    background-color: #c7dcea;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fossils .fossil .fossil__list .fossillist__item .fossillist__image img{
+    margin-top: 2px;
+}
+
+.fossils .fossils__excluded{
+    background-color: #39739C;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 10px;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.fossils .fossils__excluded .fossilexcluded__item{
+    background-color: #63A5BD;
+    display: flex;
+    align-items: center;
+    padding: 3px 7px;
+    gap: 7px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+.fossils .fossils__excluded .fossilexcluded__item:hover{
+    text-decoration: underline;
+}
+
+.fossils .fossils__excluded .fossilexcluded__item .fossilexcluded__image{
+    background-color: #c7dcea;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.eggs {
+    display: flex;
+    gap: 30px;
+    padding: 10px 70px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.eggs .eggs__container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.eggs .egg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #39739C;
+    padding: 4px 10px;
+}
+
+.eggs .egg .egg__title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.eggs .egg textarea{
+    border: 1px solid black;
+    padding: 1px 3px;
+    min-width: 405px;
+    height: 70px;
+    margin-bottom: 15px;
+}
+
+.eggs .egg .egg__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+    width: 250px;
+}
+
+.eggs .egg .egg__list .egglist__item{
+    width: 100%;
+    display: flex;
+    background-color: #63A5BD;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 8px;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.eggs .egg .egg__list .egglist__item:hover{
+    text-decoration: underline;
+}
+
+.eggs .egg .egg__list .egglist__item .egglist__chance{
+    font-weight: bold;
+    width: 60px;
+}
+
+.eggs .egg .egg__list .egglist__item .egglist__amount{
+    margin: 0px 4px;
+}
+
+.eggs .egg .egg__list .egglist__item .egglist__image{
+    background-color: #c7dcea;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eggs .egg .egg__list .egglist__item .egglist__image img{
+    margin-top: 2px;
+}
+
+.eggs .eggs__excluded{
+    background-color: #39739C;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 10px;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.eggs .eggs__excluded .eggexcluded__item{
+    background-color: #63A5BD;
+    display: flex;
+    align-items: center;
+    padding: 3px 7px;
+    gap: 7px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+.eggs .eggs__excluded .eggexcluded__item:hover{
+    text-decoration: underline;
+}
+
+.eggs .eggs__excluded .eggexcluded__item .eggexcluded__image{
+    background-color: #c7dcea;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.usages{
+    width: 100%;
+    padding: 3px 5px;
+}
+
+.usages table{
+    width: 100%;
+}
+
+.usages table tr:nth-child(odd){
+    background-color: #4489a2;
+}
+.usages table tr:nth-child(even){
+    background-color: #81b7ca;
+}
+
+.usages table th{
+    background-color: #39739C;
+    border: 2px solid #084A6B;
+}
+
+.usages table td {
+    border-top: 2px solid #084A6B;
+    border-right: 2px solid #084A6B;
+    border-left: 2px solid #084A6B;
+    border-bottom: 25px solid #021018;
+    height: 200px;
+}
+
+.usages table td, .usages table th{
+    padding: 3px 5px;
+}
+
+.usages table .usages__small{
+    width: 35px;
+    text-align: center;
+}
+
+.usages table .usages__notthatsmall{
+    width: 120px;
+    text-align: center;
+}
+
+.usages table .usages__bigfont{
+    font-size: 24px;
+}
+
+.usages table .usages__image{
+    width: 40px;
+    text-align: center;
+}
+
+.usages table .usages__image img{
+    background-color: #c7dcea;
+    border-radius: 50%;
+}
+
+.usages table .usages__name{
+    text-align: center;
+    font-weight: bold;
+}
+
+.usages table .usages__hasblock{
+    padding: 0px;
+    background-color: #095277;
+}
+
+.usages table .usage__locations{
+    display: flex;
+    flex-direction: column;
+}
+
+.usages table .usage__locations .usage__location{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #084A6B;
+    border-bottom: 1px solid #084A6B;
+    background-color: #c7dcea;
+}
+.usages table .usage__locations .usage__location:nth-child(even){
+    background-color: #a3c5dc;
+}
+
+.usages table .usage__locations .usage__location div{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+    justify-content: center;
+}
+
+.usages table .usage__locations .usage__location div a{
+    color: black;
+    text-decoration: none;
+}
+.usages table .usage__locations .usage__location div a:hover{
+    text-decoration: underline;
+}
+
+.usages table .usage__locations .usage__location .location__image{
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: 1px solid #084A6B;
+}
+
+.usages table .usage__locations .usage__location .location__chance{
+    width: 60px;
+    font-weight: bold;
+    border-right: 1px solid #084A6B;
+}
+
+.usages table .usage__locations .usage__location .location__location{
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+.usages table .usage__trainers{
+    display: flex;
+    flex-direction: column;
+}
+
+.usages table .usage__trainers .usage__trainer{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #084A6B;
+    border-bottom: 1px solid #084A6B;
+    background-color: #c7dcea;
+}
+.usages table .usage__trainers .usage__trainer:nth-child(even){
+    background-color: #a3c5dc;
+}
+
+.usages table .usage__trainers .usage__trainer div{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+    justify-content: center;
+}
+
+.usages table .usage__trainers .usage__trainer div a{
+    color: black;
+    text-decoration: none;
+}
+.usages table .usage__trainers .usage__trainer div a:hover{
+    text-decoration: underline;
+}
+
+.usages table .usage__trainers .usage__trainer .trainer__img{
+    padding-top: 3px;
+    border-right: 1px solid #084A6B;
+}
+
+.usages table .usage__trainers .usage__trainer .trainer__level{
+    font-size: 13px;
+    border-right: 1px solid #084A6B;
+    width: 50px;
+    font-weight: bold;
+}
+
+.usages table .usage__trainers .usage__trainer .trainer__location{
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.usages-small table tr:nth-child(odd){
+    background-color: white;
+}
+.usages-small table tr:nth-child(even){
+    background-color: #d9d9d9;
+}
+
+.usages-small table td{
+    height: auto;
+    border-bottom: 2px solid #084A6B;
+}
+
+.usages-small table .usages__name{
+    text-align: left;
+    padding-left: 5px;
+}
+
+.usages-small table .usages__image img{
+    height: 32px;
+    width: 32px;
+}
+
+
+
+.levelcalculation{
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px 40px;
+}
+
+.levelcalculation table a{
+    color: black;
+    text-decoration: none;
+}
+.levelcalculation table a:hover{
+    text-decoration: underline;
+}
+
+.levelcalculation table th, .levelcalculation table td{
+    border: 4px solid #084A6B;
+    text-align: center;
+}
+
+.levelcalculation table th{
+    background-color: #39739C;
+    padding: 3px 10px;
+}
+
+.levelcalculation table tr:nth-child(odd){
+    background-color: #63A5BD;
+}
+.levelcalculation table tr:nth-child(even){
+    background-color: #4489a2;
+}
+
+.levelcalculation table .levelcalculation__mylevel{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.levelcalculation table .levelcalculation__theirlevel{
+    font-size: 22px;
+    color: #660000;
+}
+
+.levelcalculation table .levelcalculation__mylevel1{
+    background-color: rgba(255, 153, 203, 0.3);
+}
+.levelcalculation table .levelcalculation__mylevel2{
+    background-color: rgba(255, 153, 153, 0.3);
+}
+.levelcalculation table .levelcalculation__mylevel3{
+    background-color: rgba(255, 153, 153, 0.2);
+}
+.levelcalculation table .levelcalculation__mylevel4{
+    background-color: rgba(242, 242, 242, 0.4);
+}
+.levelcalculation table .levelcalculation__mylevel5{
+    background-color: rgba(242, 242, 242, 0.3);
+}
+.levelcalculation table .levelcalculation__mylevel6{
+    background-color: rgba(179, 255, 179, 0.4);
+}
+.levelcalculation table .levelcalculation__totalmoney{
+    padding: 0px 45px;
+}
+
+
+.levelcalculation .levelcalculation__pokemons{
+    display: flex;
+    width: 260px;
+    padding: 5px 5px;
+    margin: 0px 21px 0px 0px;
+}
+
+.levelcalculation .levelcalculation__pokemons .levelcalculation__pokemon{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+
+.levelcalculation .levelcalculation__pokemons .levelcalculation__pokemon img{
+    background-color: #c7dcea;
+    border-radius: 50%;
+}
+
+.levelcalculation .levelcalculation__pokemons .levelcalculation__pokemon span{
+    font-size: 10px;
+    margin-left: -13px;
+}
+
+
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience .experience__results{
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.experience .experience__results .experience__result{
+    width: 23%;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.experience form{
+    margin-bottom: 30px;
+}
+
+.experience form input[type="submit"], .experience form select{
+    cursor: pointer
+}
+
+
+
+.writetext{
+    display: flex;
+    flex-direction: row;
+}
+
+.writetext .writetext__left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 20px 10px;
+    gap: 15px;
+}
+
+.writetext .writetext__left select{
+    cursor: pointer;
+}
+
+.writetext .writetext__left .writetext__selects{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.writetext .writetext__left input[type="submit"]{
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 10px;
+    background-color: #084A6B;
+    color: #FFC608;
+    cursor: pointer;
+}
+
+.writetext .writetext__left .writetext__selects select{
+    font-size: 22px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 0px 5px;
+}
+
+.writetext .writetext__left .writetext__selects input[type="text"]{
+    font-size: 18px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+.writetext .writetext__left .writetext__naming{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.writetext .writetext__left .writetext__naming input[type="text"]{
+    font-size: 18px;
+    width: 550px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 5px;
+    height: 31px;
+    background-color: #e6e6e6;
+}
+
+.writetext .writetext__left .writetext__naming input[type="submit"]{
+    background-color: #7B0042;
+}
+
+.writetext .writetext__left .writetext__writing textarea{
+    border: 1px solid black;
+    width: 640px;
+    border-radius: 5px;
+    height: 200px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.writetext .writetext__left .writetext__commands{
+    display: flex;
+    gap: 30px;
+}
+
+.writetext .writetext__left .writetext__commands div{
+    font-size: 16px;
+    height: 31px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #084A6B;
+    color: #FFC608;
+    cursor: pointer;
+}
+.writetext .writetext__left .writetext__commands div:hover{
+    background-color: #7B0042;
+}
+
+.writetext .writetext__left .writetext__inserts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 700px;
+    background-color: #39739C;
+    border-radius: 5px;
+    padding: 5px 10px;
+    row-gap: 5px;
+    column-gap: 10px;
+    font-size: 22px;
+}
+
+.writetext .writetext__left .writetext__inserts .writetext__insert{
+    display: flex;
+    cursor: pointer;
+    background-color: #c7dcea;
+    border-radius: 5px;
+    width: 335px;
+    padding: 3px 6px;
+}
+.writetext .writetext__left .writetext__inserts .writetext__insert:hover{
+    background-color: #63A5BD;
+}
+
+.writetext .writetext__left .writetext__inserts .writetext__insert .writetext__insertkey{
+    min-width: 50%;
+    font-weight: bold;
+}
+
+.writetext .writetext__right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    padding: 30px 0px;
+}
+
+.writetext .writetext__right .writetext__exampleholder{
+    background-color: #102a3d;
+    padding: 40px 30px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.writetext .writetext__right .writetext__example{
+    border-top: 5px solid #4898d0;
+    border-left: 5px solid #4898d0;
+    border-right: 5px solid #4898d0;
+    border-bottom: 20px solid #4898d0;
+    font-size: 18px;
+    min-width: calc((22px * 35) + 10px);
+    max-width: calc((22px * 35) + 10px);
+    width: calc((22px * 35) + 10px);
+    background-color: #808080;
+}
+
+.writetext .writetext__right .writetext__exampleline{
+    width: 100%;
+    display: flex;
+    min-height: 5px;
+    min-width: 3px;
+}
+
+.writetext .writetext__right .writetext__example .writetext__examplechar{
+    border: 1px dotted #ffb3ff;
+    min-width: 22px;
+    max-width: 22px;
+    width: 22px;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    min-height: 24px;
+}
+
+.writetext .writetext__right .writetext__example .writetext__examplescroll{
+    background-color: #FFF752;
+    width: 22px;
+    height: 22px;
+    margin-left: 5px;
+    border-radius: 400px;
+    text-align: center;
+    color: #7B0042;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+
+.readtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.readtext .readtext__selects{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px 0px 30px;
+}
+
+.readtext .readtext__selects select{
+    font-size: 22px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.readtext .readtext__selects input[type="submit"]{
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 10px;
+    background-color: #084A6B;
+    color: #FFC608;
+    cursor: pointer;
+}
+
+.readtext .readtext__table{
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.readtext .readtext__table tr:nth-child(odd){
+    background-color: #c7dcea;
+}
+.readtext .readtext__table tr:nth-child(even){
+    background-color: #edf3f8;
+}
+
+.readtext .readtext__table td, .readtext .readtext__table th{
+    border: 2px solid #084A6B;
+}
+.readtext .readtext__table th{
+    background-color: #39739C;
+    font-size: 20px;
+    padding: 4px 0px;
+}
+.readtext .readtext__table td{
+    padding: 13px 8px;
+}
+
+.readtext .readtext__table .readtext__number{
+    text-align: center;
+    width: 1px;
+    padding: 0px 10px;
+}
+
+.readtext .readtext__table .readtext__copy{
+    width: 1px;
+}
+
+.readtext .readtext__table .readtext__copy div{
+    display: inline;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #7B0042;
+    color: #FFC608;
+    cursor: pointer;
+}
+.readtext .readtext__table .readtext__copy:hover div{
+    background-color: #CE4AA5;
+}
+
+.readtext .readtext__table .readtext__goedit{
+    text-align: center;
+}
+.readtext .readtext__table .readtext__goedit a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.readtext .readtext__table .readtext__goedit a:hover{
+    text-decoration: underline;
+}
+
+
+
+.moneytable{
+    border: 1px solid #084A6B;
+    display: flex;
+    flex-wrap: wrap;
+    width: 802px;
+    background-color: #084A6B;
+    margin: 0px auto;
+}
+
+.moneytable .moneytable__cell{
+    border: 1px solid #084A6B;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    background-color: #c7dcea;
+}
+
+
+
+.compatibility{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.compatibility .compatibility__line{
+    display: flex;
+    gap: 10px;
+}
+
+.compatibility .compatibility__line .compatibility__pokemon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #39739C;
+    border-radius: 20px;
+    padding: 5px 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.compatibility .compatibility__line .compatibility__pokemon .compatibility__name{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.compatibility .compatibility__line .compatibility__pokemon .compatibility__move{
+    font-size: 12px;
+}
+
+/* 
+-- Blue:
+#084A6B
+#39739C
+#63A5BD
+#c7dcea
+-- Purple:
+#7B0042
+#CE4AA5
+#E76BB5
+-- Yellow
+#FFC608
+#FFF752
+*/

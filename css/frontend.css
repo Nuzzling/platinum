@@ -285,6 +285,23 @@ header a:hover{
     text-decoration: underline;
 }
 
+.trainercontainer .trainercontainer__header .trainercontainer__owid{
+    background-color: #FFF752;
+    margin-left: 20px;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+.trainercontainer .trainercontainer__header .trainercontainer__id{
+    padding: 0px 5px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+.trainercontainer .trainercontainer__header .trainercontainer__opt{
+    font-weight: normal;
+    margin-left: 30px;
+}
+
+
 .trainercontainer .trainercontainer__pokemons{
     display: flex;
     flex-wrap: nowrap;
@@ -320,6 +337,15 @@ header a:hover{
     text-align: right;
     width: 95%;
     margin-bottom: -10px;
+}
+
+.trainercontainer .trainercontainer__pokemons .trainerpokemon .trainerpokemon__exp{
+    font-size: 11px;
+    font-weight: bold;
+    text-align: right;
+    width: 95%;
+    margin-top: 8px;
+    margin-bottom: -18px;
 }
 
 .trainercontainer .trainercontainer__pokemons .trainerpokemon .trainerpokemon__item{
@@ -1475,4 +1501,141 @@ header a:hover{
     padding-left: 3px;
     display: flex;
     align-items: center;
+}
+
+.newpokemons .newpokemons__intro{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newpokemons .newpokemons__intro h2{
+    margin-bottom: 3px;
+}
+
+.newpokemons .newpokemons__intro p{
+    font-size: 14px;
+    width: 690px;
+}
+
+.newpokemons .newpokemons__container .newline{
+    border: 2px solid #73eda0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.newpokemons .newpokemons__container .newline .newpokemons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #afcfbb;
+    border-right: 2px solid #73eda0;
+    width: 555px;
+    min-width: 555px;
+    max-width: 555px;
+    justify-content: space-around;
+}
+
+.newpokemons .newpokemons__container .newline .newpokemons .newpokemon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #bbf6d1;
+    padding: 5px 8px;
+    width: 185px;
+    min-width: 185px;
+    max-width: 185px;
+    border-left: 1px solid #73eda0;
+    border-right: 2px solid #73eda0;
+}
+
+.newpokemons .newpokemons__container .newline .newpokemons .newpokemon .newpokemon__info{
+    position: relative;
+    background-color: #e8fcf0;
+    border-radius: 500px;
+    padding: 4px 15px;
+    margin: 4px 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.newpokemons .newpokemons__container .newline .newpokemons .newpokemon .newpokemon__info .newpokemon__label{
+    position: absolute;
+    background-color: #73eda0;
+    border-radius: 500px;
+    font-size: 9px;
+    padding: 1px 4px;
+    left: 0px;
+    top: -5px;
+}
+
+.newpokemons .newpokemons__container .newline .newpokemons .newpokemon .newpokemon__name{
+    font-size: 16px;;
+}
+
+.newpokemons .newpokemons__container .newline .newpokemons .newpokemon .newpokemon__types{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.newpokemons .newpokemons__container .newline .newpokemons .newpokemon .newpokemon__types .type{
+    font-size: 11px;
+}
+
+.newpokemons .newpokemons__container .newline .newpokemons .newpokemon .newpokemon__sprite{
+    background-color: #e8fcf0;
+    border-radius: 500px;
+    padding: 5px;
+    margin: 5px 0px 9px;
+}
+
+.newpokemons .newpokemons__container .newline .newpokemons .newpokemon .newpokemon__credit {
+    font-size: 11px;
+}
+
+.newpokemons .newpokemons__container .newline .newpokemons .newpokemon .newpokemon__credit .newpokemon__label {
+    top: -9px;
+}
+
+.newpokemons .newpokemons__container .newline .newline__info{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.newpokemons .newpokemons__container .newline .newline__info .newline__note{
+    background-color: #e8fcf0;
+    flex-basis: 100%;
+    padding: 8px 13px;
+    overflow-y: scroll;
+    font-size: 14px;
+    max-height: 285px;
+}
+.newpokemons .newpokemons__container .newline .newline__info .newline__note::-webkit-scrollbar {
+    display: none;
+}
+
+.newpokemons .newpokemons__container .newline .newline__info .newline__locations{
+    border-top: 2px solid #73eda0;
+    font-size: 13px;
+    padding: 3px 5px;
+}
+
+.newpokemons .newpokemons__container .newline .newline__info .newline__locations a{
+    color: blue;
+    text-decoration: none;
+}
+.newpokemons .newpokemons__container .newline .newline__info .newline__locations a:hover{
+    text-decoration: underline;
 }

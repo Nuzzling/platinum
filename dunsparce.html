@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Nuzzling Platinum | DUNSPARCE</title>
+  <title>Nuzzling Platinum | Dunsparce</title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/frontend.css">
   <link rel="icon" type="image/x-icon" href="images/nuzzlingplatinum.ico">
@@ -33,7 +33,7 @@
                 </a>
                 <div class="detailstable__item">
                     <div class="detailstable__label">Name:</div>
-                    <div class="detailstable__value">DUNSPARCE</div>
+                    <div class="detailstable__value">Dunsparce</div>
                 </div>
                 <a href="pawmi.html">
                     <img src="https://www.serebii.net/pokedex-sv/icon/921.png">>
@@ -44,7 +44,19 @@
                 </div>
                 <div class="detailstable__item">
                     <div class="detailstable__label">Items:</div>
-                    <div class="detailstable__value detailstable__value-items"> <div class="detailshelditem__none">no hold items</div> </div>
+                    <div class="detailstable__value detailstable__value-items">                                 <div class="detailshelditem" title="Pomeg Berry">
+                                    <div class="detailshelditem__chance">
+                                        50%
+                                    </div>    
+                                    <div class="detailshelditem__image" style="background-image: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/berry/pomeg.png);"></div>
+                                </div>
+                                                            <div class="detailshelditem" title="Chilan Berry">
+                                    <div class="detailshelditem__chance">
+                                        5%
+                                    </div>    
+                                    <div class="detailshelditem__image" style="background-image: url(https://raw.githubusercontent.com/msikma/pokesprite/master/items/berry/chilan.png);"></div>
+                                </div>
+                             </div>
                 </div>
                 <div class="detailstable__item">
                     <div class="detailstable__label">Ability 1:</div>
@@ -157,19 +169,6 @@
                                                                                                                                                                         <tr>
                         <td class="move__level">5</td>
                         <td class="move__name">
-                            <a href="meditate.html">
-                                Meditate                            </a>
-                        </td>
-                        <td class="move__type"><span class="type typePsychic">Psychic</span></td>
-                        <td class="move__power">0</td>
-                        <td class="move__category"><img src="https://www.serebii.net/pokedex-bw/type/other.png"></td>
-                        <td class="move__accuracy">0</td>
-                        <td class="move__pp">40</td>
-                        <td class="move__effect">Raises SpDef</td>
-                    </tr>
-                                                                                                                <tr>
-                        <td class="move__level">7</td>
-                        <td class="move__name">
                             <a href="sand-attack.html">
                                 Sand-Attack                            </a>
                         </td>
@@ -180,7 +179,20 @@
                         <td class="move__pp">15</td>
                         <td class="move__effect">Lowers Accuracy (Status)</td>
                     </tr>
-                                                                                                                                                                        <tr>
+                                                                                    <tr>
+                        <td class="move__level">6</td>
+                        <td class="move__name">
+                            <a href="calm-mind.html">
+                                Calm Mind                            </a>
+                        </td>
+                        <td class="move__type"><span class="type typePsychic">Psychic</span></td>
+                        <td class="move__power">0</td>
+                        <td class="move__category"><img src="https://www.serebii.net/pokedex-bw/type/other.png"></td>
+                        <td class="move__accuracy">0</td>
+                        <td class="move__pp">20</td>
+                        <td class="move__effect">Raises user's SpAtk and SpDef</td>
+                    </tr>
+                                                                                                                                                                                                    <tr>
                         <td class="move__level">11</td>
                         <td class="move__name">
                             <a href="horn-attack.html">
@@ -1449,7 +1461,7 @@
             data: {
                 labels: xValues,
                 datasets: [{ 
-                    data: [1,5,7,11,13,16,19,21,23,27,29,31,32,33,34,37,39,42,47,55,],
+                    data: [1,5,6,11,13,16,19,21,23,27,29,31,32,33,34,37,39,42,47,55,],
                     borderColor: "black",
                     fill: false,
                     pointRadius: 3,
