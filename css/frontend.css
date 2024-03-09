@@ -195,6 +195,24 @@ header a:hover{
     width: 50px;
 }
 
+.pokedex table .pokedex__stat-dif{
+    width: 30px;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.pokedex table .pokedex__stat-dif .pokedex__stat-dif-plus{
+    color: blue;
+}
+
+.pokedex table .pokedex__stat-dif .pokedex__stat-dif-minus{
+    color: red;
+}
+
+.pokedex table .pokedex__stat-dif .pokedex__stat-dif-none{
+    font-size: 0px;
+}
+
 .pokedex .type{
     width: 100%;
     display: block;
@@ -776,19 +794,21 @@ header a:hover{
     align-items: center;
 }
 
+.pokepage .pokepage__tms .pokepage__tm.pokepage__tm__incompatible{
+    background-color: #ffcccc;
+    color: #800000;
+}
+
+.pokepage .pokepage__tms .pokepage__tm.pokepage__tm__incompatible a{
+    color: #800000;
+}
+
 .pokepage .pokepage__tms .pokepage__tm a{
     color: black;
     text-decoration: none;
 }
 .pokepage .pokepage__tms .pokepage__tm a:hover{
     text-decoration: underline;
-}
-
-.pokepage .pokepage__tms .pokepage__tm .tm__incompatible{
-    background-color: rgba(64, 64, 64, 0.75);
-    position: absolute;
-    width: 232px;
-    height: 29px;
 }
 
 .pokepage .pokepage__tms .pokepage__tm .tm__number{
@@ -1503,6 +1523,7 @@ header a:hover{
     align-items: center;
 }
 
+
 .newpokemons .newpokemons__intro{
     text-align: center;
     margin-top: 5px;
@@ -1638,4 +1659,252 @@ header a:hover{
 }
 .newpokemons .newpokemons__container .newline .newline__info .newline__locations a:hover{
     text-decoration: underline;
+}
+
+
+.typechanges .typechange__intro{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.typechanges .typechange__intro h2{
+    margin-bottom: 3px;
+}
+
+.typechanges .typechange__intro p{
+    font-size: 14px;
+    width: 690px;
+}
+
+.typechanges .typechange__container .typechange{
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.typechanges .typechange__container .typechange .typechange__left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.typechanges .typechange__container .typechange .typechange__left .typechange__title{
+    display: flex;
+    background-color: #e8fcf0;
+    border-radius: 400px;
+    padding: 2px 7px 3px;
+    margin-top: 6px;
+}
+
+.typechanges .typechange__container .typechange .typechange__left .typechange__title .typechange__number{
+    width: 53px;
+}
+
+.typechanges .typechange__container .typechange .typechange__left .typechange__title .typechange__name{
+    width: 100px;
+}
+
+.typechanges .typechange__container .typechange .typechange__left .typechange__sprite{
+    margin-top: 40px;
+    background-color: #e8fcf0;
+    border-radius: 400px;
+}
+
+.typechanges .typechange__container .typechange .typechange__image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8fcf0;
+    width: 300px;
+    height: 300px;
+    border-radius: 400px;
+}
+
+.typechanges .typechange__container .typechange .typechange__right{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.typechanges .typechange__container .typechange .typechange__right .typechange__types{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 15px;
+}
+
+.typechanges .typechange__container .typechange .typechange__right .typechange__types .type{
+    font-size: 20px;
+    padding: 2px 7px;
+}
+
+.typechanges .typechange__container .typechange .typechange__right .typechange__types .typechange__oldtype{
+    background-color: #73eda0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-top-left-radius: 400px;
+    border-bottom-left-radius: 400px;
+    padding: 4px 10px;
+    gap: 8px;
+}
+
+.typechanges .typechange__container .typechange .typechange__right .typechange__types .typechange__newtype{
+    background-color: #e8fcf0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-top-right-radius: 400px;
+    border-bottom-right-radius: 400px;
+    padding: 4px 15px 4px 10px;
+    gap: 8px;
+}
+
+.typechanges .typechange__container .typechange .typechange__right .typechange__types .typechange__types-label{
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-bottom: 1px;
+}
+
+.typechanges .typechange__container .typechange .typechange__right .typechange__types .typechange__oldtype .type{
+    opacity: 0.5;
+}
+
+.typechanges .typechange__container .typechange .typechange__right .typechange__info{
+    background-color: #e8fcf0;
+    border-radius: 5px;
+    padding: 7px 10px;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+.aboutpage{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px 10px;
+}
+
+.aboutpage .aboutpage__row{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0px 5px 10px;
+    border-bottom: 2px solid #73eda0;
+}
+
+.aboutpage .aboutpage__row .aboutpage__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutpage .aboutpage__row .aboutpage__text h2{
+    margin-bottom: 6px;
+}
+
+.aboutpage .aboutpage__row .aboutpage__text p{
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+
+.aboutpage .aboutpage__row .aboutpage__text p span{
+    font-weight: bold;
+}
+
+.aboutpage .aboutpage__row .aboutpage__text ol, .aboutpage .aboutpage__row .aboutpage__text ul{
+    margin-left: 10px;
+    margin-top: -3px;
+}
+
+.aboutpage .aboutpage__row .aboutpage__images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.aboutpage .aboutpage__row .aboutpage__images img{
+    border: 3px solid #73eda0;
+    border-radius: 7px;
+    box-sizing: content-box;
+    width: 250px;
+}
+
+
+.howtoplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.howtoplay h2{
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.howtoplay h3{
+    text-align: center;
+    font-size: 22px;
+}
+
+.howtoplay h4{
+    font-size: 18px;
+}
+
+.howtoplay p{
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+
+.howtoplay ol, .howtoplay ul{
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.howtoplay ol li, .howtoplay ul li{
+    margin-bottom: 2px;
+}
+
+.howtoplay .howtoplay__answer{
+    border-top: 4px solid #73eda0;
+    padding: 5px;
+    width: 100%;
+}
+
+.howtoplay .howtoplay__answer-short{
+    text-align: center;
+}
+
+.howtoplay .howtoplay__answer h3{
+    margin-bottom: 3px;
+}
+
+.howtoplay .howtoplay__answer .howtoplay__answerpart{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.howtoplay .howtoplay__answer .howtoplay__answerpart .howtoplay__image{
+    margin: 10px auto 20px;
+    background-color: #e6ffe6;
+    padding: 5px 7px 3px 7px;
+    border: 1px solid black;
+}
+
+.howtoplay .howtoplay__answer .howtoplay__answerpart .howtoplay__image img{
+    border: 1px solid black;
 }

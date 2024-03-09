@@ -78,6 +78,10 @@ table{
 .typeQuestionmark{
     background-color: #809355;
 }
+.typeFairy{
+    background-color: #E6A4E4;
+    color: white;
+}
 
 header{
     display: flex;
