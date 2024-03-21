@@ -770,6 +770,39 @@ header a:hover{
     background-color: #3e7ca8;
 }
 
+.battle .battle__texts{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.battle .battle__texts .battle__texttable{
+    width: 100%;
+}
+
+.battle .battle__texts .battle__texttable tr:nth-child(odd){
+    background-color: #c7dcea;
+}
+.battle .battle__texts .battle__texttable tr:nth-child(even){
+    background-color: #edf3f8;
+}
+
+.battle .battle__texts .battle__texttable td{
+    border: 1px solid #084A6B;
+    padding: 2px 5px;
+}
+.battle .battle__texts .battle__texttable td:first-child{
+    width: 120px;
+}
+
+.battle .battle__texts .battle__texttable td a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.battle .battle__texts .battle__texttable td a:hover{
+    text-decoration: underline;
+}
+
 
 
 .trainerclasses{
@@ -1951,6 +1984,47 @@ header a:hover{
     background-color: #7B0042;
 }
 
+.writetext .writetext__left .writetext__trainer{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.writetext .writetext__left .writetext__trainer input{
+    font-size: 18px;
+    width: 230px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 5px;
+    height: 31px;
+    background-color: #e6e6e6;
+}
+
+.writetext .writetext__left .writetext__trainer select{
+    font-size: 18px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 5px;
+    height: 31px;
+    background-color: #e6e6e6;
+}
+
+.writetext .writetext__left .writetext__trainer span{
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #084A6B;
+    color: #FFC608;
+    line-height: 28px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.writetext .writetext__left .writetext__trainer span a{
+    color: #FFC608;
+}
+
 .writetext .writetext__left .writetext__writing textarea{
     border: 1px solid black;
     width: 640px;
@@ -2160,6 +2234,15 @@ header a:hover{
     text-decoration: underline;
 }
 
+.readtext .readtext__table .readtext__title a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.readtext .readtext__table .readtext__title a:hover{
+    text-decoration: underline;
+}
+
 
 
 .moneytable{
@@ -2179,6 +2262,28 @@ header a:hover{
     align-items: center;
     justify-content: center;
     font-size: 24px;
+    background-color: #c7dcea;
+}
+
+
+
+.tmcolortable {
+    border: 1px solid #084A6B;
+    display: flex;
+    flex-wrap: wrap;
+    width: 802px;
+    background-color: #084A6B;
+    margin: 0px auto;
+}
+
+.tmcolortable .tmcolortable__cell{
+    border: 1px solid #084A6B;
+    width: 50%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
     background-color: #c7dcea;
 }
 
@@ -2215,6 +2320,51 @@ header a:hover{
 
 .compatibility .compatibility__line .compatibility__pokemon .compatibility__move{
     font-size: 12px;
+}
+
+
+.levelcaps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 20px 10px 40px;
+}
+
+.levelcaps .levelcap{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 10px;
+    align-items: center;
+}
+
+.levelcaps .levelcap .levelcap__trainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    min-width: 60%;
+    background-color: #E76BB5;
+    border-radius: 20px;
+}
+
+.levelcaps .levelcap .levelcap__pokemons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.levelcaps .levelcap .levelcap__pokemons .levelcap__pokemon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c7dcea;
+    border-radius: 10px;
+    width: 100px;
+    color: black;
+    text-decoration: none;
+    padding: 3px 0px 5px;
 }
 
 /* 
